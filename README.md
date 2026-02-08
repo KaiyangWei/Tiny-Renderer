@@ -23,7 +23,7 @@ I hope every readers can give me some suggestions, thank you.
 - I focused on vector/matrix math and avoided using high-level graphics libraries.
 
 ## AI Usage
-- I used AI as an assistant for about **20%¨C30%** of the work.
+- I used AI as an assistant for about 20% of the work.
 - Mainly for OBJ parsing details and some explanations, but the core pipeline is written by myself.
 
 ## Current Question
@@ -38,6 +38,6 @@ I hope every readers can give me some suggestions, thank you.
 
 ## Repository Layout
 - `README.md`, `.gitignore`, `.sln` are in the repo root.
-- Source code is in `Tiny Renderer/` (like `main.cpp`, `geometry.h`, `our_gl.*`, `model.*`).
-- Assets can be placed in `assets/` (or just the working directory for now).
+- Source code is in the repo root (like `main.cpp`, `geometry.h`, `our_gl.*`, `model.*`).
+- Assets are in the repo root for now (`african_head.obj`, `african_head_diffuse.tga`).
 - Output file: `output.tga` (can be ignored if needed).
